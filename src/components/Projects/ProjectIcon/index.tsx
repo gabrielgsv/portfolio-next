@@ -30,20 +30,22 @@ const ProjectIcon = ({ icons }: ProjectIconProps) => {
             <h2 className="card-title">{icon.name}</h2>
             <p>{icon.description}</p>
             <div className="card-actions justify-around mt-5">
-              <Link href={icon.url} target="_blank">
-                <button className="btn bg-emerald-600 rounded-full">
-                  <Image
-                    src="/web.svg"
-                    alt="Link do projeto"
-                    width={20}
-                    height={20}
-                    className="mr-2"
-                  />
-                  <span className="capitalize text-base text-white">
-                    Projeto
-                  </span>
-                </button>
-              </Link>
+              {icon?.url && (
+                <Link href={icon.url} target="_blank">
+                  <button className="btn bg-emerald-600 rounded-full">
+                    <Image
+                      src="/web.svg"
+                      alt="Link do projeto"
+                      width={20}
+                      height={20}
+                      className="mr-2"
+                    />
+                    <span className="capitalize text-base text-white">
+                      Projeto
+                    </span>
+                  </button>
+                </Link>
+              )}
 
               <Link href={icon.github} target="_blank">
                 <button className="btn bg-stone-700 rounded-full">
