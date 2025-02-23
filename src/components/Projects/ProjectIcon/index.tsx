@@ -30,7 +30,7 @@ const ProjectIcon = ({ icons }: ProjectIconProps) => {
             <h2 className="card-title">{icon.name}</h2>
             <p>{icon.description}</p>
             <div className="card-actions justify-around mt-5">
-              {icon.url && (
+              {icon.url.length > 0 && (
                 <Link href={icon.url} target="_blank">
                   <button className="btn bg-emerald-600 rounded-full">
                     <Image
