@@ -3,7 +3,6 @@
     "src": "/ei-nerds.png",
     "alt": "Ei Nerds icon",
     "name": "Ei Nerds",
-    // "url": "https://play.google.com/store/apps/details?id=com.gabrielgsv.einerds",
     "github": "https://github.com/gabrielgsv/ei-nerds",
     "description": "App mobile de busca de filmes e séries que utiliza a API TheMovieDb."
   },
