@@ -11,9 +11,9 @@
     "src": "/agriculture.png",
     "alt": "Agriculture icon",
     "name": "Agriculture",
-    "url": "https://agriculture-gabrielsoaresvilela.vercel.app",
+    "url": "https://agriculture-gsv.vercel.app",
     "github": "https://github.com/gabrielgsv/agriculture",
-    "description": "Sistema de gerenciamento de fazendas que permite o controle de culturas e terras, além de fornecer informações sobre a área plantada e disponível. Para teste: ( usuário: user@email.com, senha: user123 )"
+    "description": "Sistema de gerenciamento de fazendas que permite o controle de culturas e terras, além de fornecer informações sobre a área plantada e disponível. Para teste: ( usuário: admin@admin.com, senha: Admin123 )"
   },
   {
     "src": "/agenda.png",
