@@ -14,6 +14,14 @@ const Skills = () => {
     <>
       <div className="flex flex-wrap-reverse items-center justify-center gap-5 md:gap-20">
         <div className="md:text-[20pt] w-fit" ref={ref}>
+          <div className="flex items-center mt-4 justify-between gap-5">
+            NodeJs <Stars number={5} isVisible={isVisible} />
+          </div>
+
+          <div className="flex items-center mt-4 justify-between gap-5">
+            NestJs <Stars number={5} isVisible={isVisible} />
+          </div>
+
           <div className="flex items-center justify-between gap-5">
             ReactJs <Stars number={5} isVisible={isVisible} />
           </div>
@@ -35,15 +43,11 @@ const Skills = () => {
           </div>
 
           <div className="flex items-center mt-4 justify-between gap-5">
-            NodeJs <Stars number={4} isVisible={isVisible} />
+            VueJs <Stars number={4} isVisible={isVisible} />
           </div>
 
           <div className="flex items-center mt-4 justify-between gap-5">
-            Express <Stars number={3} isVisible={isVisible} />
-          </div>
-
-          <div className="flex items-center mt-4 justify-between gap-5">
-            NestJs <Stars number={3} isVisible={isVisible} />
+            Nuxt <Stars number={3} isVisible={isVisible} />
           </div>
         </div>
 

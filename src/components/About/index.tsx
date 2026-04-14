@@ -6,18 +6,20 @@ const About = () => {
     <>
       <div className="flex flex-wrap-reverse items-center justify-center">
         <div className="md:text-xl w-fit text-justify">
-          <p>Olá, seja bem-vindo(a) ao meu site.</p>
+          <p>Olá! Sou Gabriel Soares Vilela,</p>
+          <p>desenvolvedor full-stack com mais de 6 anos de experiência.</p>
+          
           <p className="mt-4">
-            Sou desenvolvedor Front-end e uso ReactJs para criar aplicações web.
+            Trabalho com Node.js, NestJS, TypeScript, PostgreSQL,
           </p>
+          <p>React, Next.js, Vue.js e Nuxt.js.</p>
+
           <p className="mt-4">
-            Tenho experiência com Typescript, Redux, NextJs, Context-api,
+            Já passei por projetos bem diferentes, como sistemas financeiros, CRMs,
           </p>
-          <p>React Hooks e outras ferramentas.</p>
-          <p className="mt-4">
-            Sou apaixonado por aprender novas tecnologias e criar experiências
+          <p>
+            plataforma de gestão florestal e até soluções com IA para gerenciamento de documentos.
           </p>
-          <p>incríveis na web.👋</p>
         </div>
 
         <div>
