@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Roboto } from "next/font/google";
-import Head from "next/head"
 
 const roboto = Roboto({
   weight: "400",
@@ -14,6 +13,9 @@ export const metadata = {
   verification: {
     google: "QLfjmJeLgGFF9RPbmOB9S3jQDSJYnr_YdDjH6XEknfo",
   },
+  other: {
+    "facebook-domain-verification": "7mj0kaudwoaanp8p5z31m8x8n0q8rc",
+  },
 };
 
 export default function RootLayout({
@@ -23,9 +25,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <Head>
-        <meta name="facebook-domain-verification" content="7mj0kaudwoaanp8p5z31m8x8n0q8rc" />
-      </Head>
       <body>
         <div className={roboto.className}>{children}</div>
       </body>
