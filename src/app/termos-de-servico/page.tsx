@@ -9,11 +9,8 @@ export const metadata = {
 export default function TermosDeServico() {
   return (
     <div className="min-h-screen p-8 max-w-4xl mx-auto">
-      <Link
-        href="/"
-        className="btn btn-ghost mb-8 gap-2"
-      >
-        <svg\
+      <Link href="/" className="btn btn-ghost mb-8 gap-2">
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
           viewBox="0 0 20 20"
@@ -60,18 +57,22 @@ export default function TermosDeServico() {
           funcionalidades como:
         </p>
         <ul>
-          <li>Criação e agendamento de postagens para múltiplas plataformas.</li>
-          <li>Gerenciamento de conteúdo multimídia (imagens, vídeos, textos).</li>
+          <li>
+            Criação e agendamento de postagens para múltiplas plataformas.
+          </li>
+          <li>
+            Gerenciamento de conteúdo multimídia (imagens, vídeos, textos).
+          </li>
           <li>Analytics e relatórios de desempenho de publicações.</li>
           <li>Integração com APIs oficiais das redes sociais parceiras.</li>
         </ul>
 
         <h2>3. Elegibilidade</h2>
-        <p>
-          Para utilizar o VivaldiSocial, você declara que:
-        </p>
+        <p>Para utilizar o VivaldiSocial, você declara que:</p>
         <ul>
-          <li>Tem idade mínima de 18 anos ou a maioridade legal em seu país.</li>
+          <li>
+            Tem idade mínima de 18 anos ou a maioridade legal em seu país.
+          </li>
           <li>Possui capacidade legal para celebrar contratos vinculativos.</li>
           <li>
             Não está proibido de utilizar o serviço por qualquer lei aplicável.
@@ -97,9 +98,7 @@ export default function TermosDeServico() {
           <li>
             Não criar mais de uma conta sem autorização expressa da plataforma.
           </li>
-          <li>
-            Não utilizar a conta de outro usuário sem permissão.
-          </li>
+          <li>Não utilizar a conta de outro usuário sem permissão.</li>
         </ul>
 
         <h2>5. Conexão com Redes Sociais</h2>
@@ -109,8 +108,8 @@ export default function TermosDeServico() {
         </p>
         <ul>
           <li>
-            Você declara ser o titular legítimo ou estar devidamente autorizado a
-            gerenciar cada conta de rede social conectada.
+            Você declara ser o titular legítimo ou estar devidamente autorizado
+            a gerenciar cada conta de rede social conectada.
           </li>
           <li>
             Você concede ao VivaldiSocial permissão para acessar, publicar e
@@ -161,9 +160,7 @@ export default function TermosDeServico() {
         </ul>
 
         <h2>7. Responsabilidades do Usuário</h2>
-        <p>
-          Ao utilizar o VivaldiSocial, você concorda em:
-        </p>
+        <p>Ao utilizar o VivaldiSocial, você concorda em:</p>
         <ul>
           <li>
             Não publicar conteúdo ilegal, difamatório, obsceno, violento,
@@ -209,10 +206,7 @@ export default function TermosDeServico() {
         <h2>9. Privacidade e Dados</h2>
         <p>
           O tratamento de seus dados pessoais é regido pela nossa{" "}
-          <Link
-            href="/politicas-de-privacidade"
-            className="link link-primary"
-          >
+          <Link href="/politicas-de-privacidade" className="link link-primary">
             Política de Privacidade
           </Link>
           , que faz parte integrante destes Termos de Serviço. Ao utilizar o
@@ -244,21 +238,17 @@ export default function TermosDeServico() {
         <h2>11. Cancelamento e Suspensão</h2>
         <p>
           O VivaldiSocial reserva-se o direito de suspender ou cancelar contas
-          que violem estes Termos de Serviço, sem aviso prévio e sem
-          reembolso. Você pode cancelar sua conta a qualquer momento através
-          das configurações do aplicativo.
+          que violem estes Termos de Serviço, sem aviso prévio e sem reembolso.
+          Você pode cancelar sua conta a qualquer momento através das
+          configurações do aplicativo.
         </p>
-        <p>
-          Em caso de cancelamento:
-        </p>
+        <p>Em caso de cancelamento:</p>
         <ul>
           <li>
             O acesso ao serviço será encerrado ao final do período de
             faturamento vigente.
           </li>
-          <li>
-            Os dados de agendamentos futuros serão perdidos.
-          </li>
+          <li>Os dados de agendamentos futuros serão perdidos.</li>
           <li>
             O VivaldiSocial poderá reter cópias de backup pelo período
             necessário para cumprir obrigações legais.
@@ -268,24 +258,23 @@ export default function TermosDeServico() {
         <h2>12. Alterações nos Termos</h2>
         <p>
           Podemos modificar estes Termos de Serviço periodicamente. As
-          alterações entrarão em vigor 30 dias após a publicação no
-          aplicativo ou notificação por e-mail. O uso continuado do serviço
-          após as alterações constitui aceitação dos novos termos.
+          alterações entrarão em vigor 30 dias após a publicação no aplicativo
+          ou notificação por e-mail. O uso continuado do serviço após as
+          alterações constitui aceitação dos novos termos.
         </p>
 
         <h2>13. Legislação Aplicável</h2>
         <p>
-          Estes Termos de Serviço são regidos pelas leis da República
-          Federativa do Brasil. Qualquer disputa decorrente destes termos será
-          resolvida no foro da Comarca de São Paulo, SP, com exclusão de
-          qualquer outro.
+          Estes Termos de Serviço são regidos pelas leis da República Federativa
+          do Brasil. Qualquer disputa decorrente destes termos será resolvida no
+          foro da Comarca de São Paulo, SP, com exclusão de qualquer outro.
         </p>
 
         <h2>14. Disposições Gerais</h2>
         <ul>
           <li>
-            Caso qualquer disposição destes termos seja considerada inválida
-            ou inexequível, as demais disposições permanecerão em pleno vigor.
+            Caso qualquer disposição destes termos seja considerada inválida ou
+            inexequível, as demais disposições permanecerão em pleno vigor.
           </li>
           <li>
             A falha do VivaldiSocial em exercer qualquer direito sob estes
@@ -296,16 +285,16 @@ export default function TermosDeServico() {
             VivaldiSocial em relação ao uso do serviço.
           </li>
           <li>
-            Você não pode ceder ou transferir estes termos ou seus direitos
-            aqui estabelecidos sem o consentimento prévio por escrito do
+            Você não pode ceder ou transferir estes termos ou seus direitos aqui
+            estabelecidos sem o consentimento prévio por escrito do
             VivaldiSocial.
           </li>
         </ul>
 
         <h2>15. Contato</h2>
         <p>
-          Para dúvidas, reclamações ou solicitações relacionadas a estes
-          Termos de Serviço, entre em contato:
+          Para dúvidas, reclamações ou solicitações relacionadas a estes Termos
+          de Serviço, entre em contato:
         </p>
         <ul>
           <li>
@@ -320,7 +309,10 @@ export default function TermosDeServico() {
       <div className="divider my-12" />
 
       <footer className="text-center text-sm text-gray-500">
-        <p>&copy; {new Date().getFullYear()} VivaldiSocial. Todos os direitos reservados.</p>
+        <p>
+          &copy; {new Date().getFullYear()} VivaldiSocial. Todos os direitos
+          reservados.
+        </p>
       </footer>
     </div>
   );
